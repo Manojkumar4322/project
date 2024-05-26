@@ -427,7 +427,7 @@
 /* @media screen moblie.... */
 
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:400px) and (max-width:480px) {
 
 
     *{
@@ -463,11 +463,11 @@
         
     }
     .navbar,.navbar2{
-        justify-content: space-between;
+        justify-content:space-evenly;
         /* justify-content: end; */
     }
     .navbar, .navbar2>span{
-        margin-right: 30px;    
+        margin-right: 10px;    
           
         
     }
@@ -613,8 +613,8 @@
 .heading3, .snapshot>span{
 
     text-align: center;
-    margin: 5px;
-    width: 400px;
+    /* margin: 5px; */
+    /* width: 250px; */
     
 
 }
@@ -787,19 +787,19 @@
     
     .frm1 input{
 
-        width: 400px !important;
+        width: 300px !important;
          
         
     } 
     .frm2 input{
-        width: 400px !important;
+        width: 300px !important;
 
         
         
     }
     
     .frm3 textarea{
-       width: 400px !important;
+       width: 300px !important;
         
     }
     
@@ -842,7 +842,7 @@
     
     /* tabview mediascreen */
 
-    @media screen and (min-width:481px) and (max-width:879px) {
+ @media screen and (min-width:481px) and (max-width:879px) {
 
 
 
